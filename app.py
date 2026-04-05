@@ -7,7 +7,7 @@ from PIL import Image
 MODEL_PATH = "MobileNet_best_model.h5"
 
 st.title("🌿 Leaf Disease Detection (AI Model)")
-st.write("Upload a sesame leaf image to detect disease")
+st.write("Upload a leaf image to detect disease")
 
 if not os.path.exists(MODEL_PATH):
     st.error("❌ Model file not found. Please upload MobileNet_best_model.h5 in repo root.")
