@@ -23,10 +23,10 @@ model = load_model()
 h, w = model.input_shape[1], model.input_shape[2]
 
 CLASS_NAMES = [
-    "Healthy Leaf",
-    "Insect Leaf Damage",
-    "Leaf Spot Disease",
-    "Yellowing Leaf Syndrome"
+    "Black Rot",
+    "Healthy",
+    "Insect Hole",
+    "Leaf Spot (fungal)"
 ]
 
 uploaded_file = st.file_uploader("Upload Image", type=["jpg", "jpeg", "png"])
